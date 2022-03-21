@@ -1,0 +1,234 @@
+/* HTML style part */
+
+body {
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+    
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #EDC1BB;
+    font-size: 14;
+}
+
+nav ul li a:hover{
+    color: #B7A1A6;
+    
+}
+
+nav ul li a span {
+    text-decoration: none;
+    color: #e47e96;
+    font-size: 14;
+}
+nav ul li a span:hover{
+    color: #EDC1BB;
+    
+}
+
+a {
+    color: #e47e96;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EFD593;
+}
+
+hr {
+    color: #EDC1BB;
+    border: dotted #EDC1BB 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 0px auto;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #e47e96;
+    font-weight: normal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #B7A1A6;
+}
+
+p {
+    line-height: 2;
+}
+
+
+/* CSS style part */
+
+.logo-image-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.logo {
+    width: 400px;
+    cursor: pointer; 
+    margin: 0 auto 0 auto;
+}
+
+.social-links img {
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position:static;
+}
+
+.images-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 900px;
+    background-color: #EDC1BB;
+}
+
+.macarron {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 900px;
+    width: auto;
+}
+.middle-container {
+    margin-bottom: 0px;
+    height: 500px;
+    background-color: none;
+    position: relative;
+    margin-top: auto;
+}
+
+
+.skill-row {
+    width: 100%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cake-naranja{
+    width: 150px;
+    margin: 0 auto 0 auto;
+    padding-top: 30px;
+}
+
+.adornos {
+    width: 150px;
+    margin: 0 auto 0 auto;
+    padding-top: 30px;
+}
+
+.copyright {
+    color: #e47e96;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+/* CSS style part  
+.contact-info-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 300px;
+    background-color: #86b3e6;
+}
+
+.sabores-pastel {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 300px;
+    background-color: #cfab67;
+}
+
+.adornos-pastel {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 300px;
+    background-color: #9d67cf; 
+}
+
+*/
+
+.formulario-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 300px;
+    background-color: NONE;
+    position: relative;
+    margin-top: auto;
+}
+
+.formulario {
+    margin-top: 10px;
+}
+.btn {
+    background: #e47e96;
+    background-image: -webkit-linear-gradient(top, #E47E96, #EDC1BB);
+    background-image: -moz-linear-gradient(top, #E47E96, #EDC1BB);
+    background-image: -ms-linear-gradient(top, #E47E96, #EDC1BB);
+    background-image: -o-linear-gradient(top, #E47E96, #EDC1BB);
+    background-image: linear-gradient(to bottom, #E47E96, #EDC1BB);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #EDC1BB;
+    background-image: -webkit-linear-gradient(top, #EDC1BB, #E47E96);
+    background-image: -moz-linear-gradient(top, #edc1bb, #E47E96);
+    background-image: -ms-linear-gradient(top, #EDC1BB, #E47E96);
+    background-image: -o-linear-gradient(top, #EDC1BB, #E47E96);
+    background-image: linear-gradient(to bottom, #EDC1BB, #E47E96);
+    text-decoration: none;
+  }
+.footer-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100px;
+    background-color: #EDC1BB;
+    position: relative;
+    margin-top: auto;
+    padding-top: 50px;
+
+}
